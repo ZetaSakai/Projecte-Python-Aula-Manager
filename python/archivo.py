@@ -65,7 +65,7 @@ def buscar_per_serie():
                 print(clau, ":", valor)
             return
 
-    print("❌ No s'ha trobat cap equip amb aquest número de sèrie.")
+    print("No s'ha trobat cap equip amb aquest número de sèrie.")
 
 
 # =========================
