@@ -38,19 +38,18 @@ while True:
         contador_id += 1
 
     elif opcion == "2":
-        if len(equips) == 0:
+        if equips == 0:
             print("No hay equipos registrados.")
         else:
-            for e in equips:
+            for equips in equips:
                 print("----------------------------")
-                for clave, valor in e.items(): #e representa un equipo de cada bucle
-                    print(f"{clave}: {valor}")
+            print equips
 
     elif opcion == "3":
         serie_buscar = input("Introduce el número de serie del equipo: ")
-        for e in equips: #e representa un equipo de cada bucle
-            if e["serie"] == serie_buscar:
-                print(f"El estado del equipo '{"nombre"}' es: {e['estado']}")
+        for equips in equips: #e representa un equipo de cada bucle
+            if equips["serie"] == serie_buscar:
+                print(f"El estado del equipo es: {'estado'}")
                 break
         else:
             print("No se ha encontrado ningún equipo con ese número de serie.")
@@ -58,6 +57,3 @@ while True:
     elif opcion == "4":
         print("Saliendo del programa...")
         break
-
-    else:
-        print("Opción no válida. Intenta de nuevo.")
