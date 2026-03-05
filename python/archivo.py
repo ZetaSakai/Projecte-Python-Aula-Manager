@@ -43,7 +43,7 @@ while True:
         else:
             for equips in equips:
                 print("----------------------------")
-            print equips
+            print(f"{equips}")
 
     elif opcion == "3":
         serie_buscar = input("Introduce el número de serie del equipo: ")
