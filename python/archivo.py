@@ -6,7 +6,7 @@ contador_id = 1 # Variable ID automático
 
 # Bucle principal
 while True:
-    print("\n===== AulaManager =====")
+    print("===== AulaManager =====")
     print("1. Dar de alta un equipo")       
     print("2. Ver todos los equipos")      
     print("3. Consultar estado de un equipo") 
