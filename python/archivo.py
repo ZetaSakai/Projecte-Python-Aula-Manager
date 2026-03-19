@@ -6,6 +6,7 @@ contador_id = 1 # Variable ID automático
 
 # Bucle principal
 while True:
+<<<<<<< HEAD
     print("\n===== AulaManager =====")
     print("1) Registrar equip")       
     print("2) Consultar equip")      
@@ -13,6 +14,13 @@ while True:
     print("4) Modificar dades")
     print("5) Gestioner incidencia")
     print("0) Sortir")
+=======
+    print("===== AulaManager =====")
+    print("1. Dar de alta un equipo")       
+    print("2. Ver todos los equipos")      
+    print("3. Consultar estado de un equipo") 
+    print("4. Salir")
+>>>>>>> dbf536022a911d30db0d125ae5a9c7f102457b05
 
     opcion = input("Elige una opción: ")
 
