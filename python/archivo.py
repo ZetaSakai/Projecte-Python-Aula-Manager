@@ -7,27 +7,29 @@ contador_id = 1 # Variable ID automático
 # Bucle principal
 while True:
     print("\n===== AulaManager =====")
-    print("1. Dar de alta un equipo")       
-    print("2. Ver todos los equipos")      
-    print("3. Consultar estado de un equipo") 
-    print("4. Salir")
+    print("1) Registrar equip")       
+    print("2) Consultar equip")      
+    print("3) Canviar estat") 
+    print("4) Modificar dades")
+    print("5) Gestioner incidencia")
+    print("0) Sortir")
 
     opcion = input("Elige una opción: ")
 
     if opcion == "1":
         equipo = {
-            "id": contador_id,              
-            "tipo": input("Tipo (PC, Portátil, Impresora, Switch, AP, Servidor): "),
-            "nombre": input("Nombre del equipo: "),
-            "aula": input("Aula: "),
-            "serie": input("Número de serie: "),
-            "so": input("Sistema operativo: "),
-            "ram": input("RAM (ej: 16GB): "),
-            "disc": input("Disco (ej: 512GB SSD): "),
-            "estado": input("Estado (operativo/avariado/reparación/baja): "),
-            "ip": input("IP (opcional): "),
-            "mac": input("MAC (opcional): "),
-            "observaciones": input("Observaciones: ")
+            id = contador_id,              
+            tipo = input("Tipo (PC, Portátil, Impresora, Switch, AP, Servidor): "),
+            nombre = input("Nombre del equipo: "),
+            aula  = input("Aula: "),
+            serie input("Número de serie: "),
+            so = input("Sistema operativo: "),
+            ram = int(input("RAM (ej: 16GB): ")),
+            disc = input("Disco (ej: 512GB SSD): "),
+            estado = input("Estado (operativo/avariado/reparación/baja): "),
+            ip = input("IP (opcional): "),
+            mac = input("MAC (opcional): "),
+            observaciones = input("Observaciones: ")
         }
 
         # Guardamos el equipo en la lista
