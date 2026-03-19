@@ -1,3 +1,5 @@
+#Proba de python
+
 equips = []  # Lista de equipos
 contador_id = 1  # Variable ID automático
 
