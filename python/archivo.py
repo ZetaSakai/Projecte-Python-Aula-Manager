@@ -74,7 +74,7 @@ while True:
         else:
             for equipo in equips:
                 print("\n---INFORMACIÓ DE L'EQUIP---")
-
+                print("\n")
                 print(f"ID: {equipo['id']}")
                 print (f"Nombre: {equipo['nombre']}")
                 print (f"Aula: {equipo['aula']}")
